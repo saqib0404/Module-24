@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring DOM</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Welcom To DOM</h1>
+
+    <main id="main-container">
+        <section id="fruits-section">
+            <h2>Fruits I like</h2>
+            <ul id="fruit-list">
+                <li>Banana</li>
+                <li id="fav-fruit">Apple</li>
+                <li>Orange</li>
+                <li>Mango</li>
+            </ul>
+        </section>
+        <section class="places-container">
+            <h2>Places I visited</h2>
+            <ul>
+                <li class="visited-places">Shundarbon</li>
+                <li class="visited-places">Bandorban</li>
+                <li class="visited-places">kaliyabon</li>
+            </ul>
+        </section>
+    </main>
+
+    <script>
+        // const places = document.getElementsByClassName("places-container");
+        // console.log(places);
+
+        // const places = document.getElementsByClassName("visited-places");
+        // // console.log(places);
+        // for(const place of places){
+        //     console.log(place.innerText)
+        // }
+
+        // const favFruit = document.getElementById("fav-fruit").innerText;
+        // console.log(favFruit); 
+
+    //     const places = document.querySelector(".places-container li").innerText;
+    //     console.log(places)
+    
+        // const places = document.querySelectorAll(".places-container li");
+        // // console.log(places)
+        // for(const place of places){
+        //     console.log(place.innerText);
+        // }
+
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
